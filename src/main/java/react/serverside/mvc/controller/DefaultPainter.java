@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class Painter {
+public class DefaultPainter {
 	@SuppressWarnings("unused")
-	private static final Logger logger = LoggerFactory.getLogger(Painter.class);
+	private static final Logger logger = LoggerFactory.getLogger(DefaultPainter.class);
 
-	private Painter() {}
+	private DefaultPainter() {}
 
 	@GetMapping("/react/test")
 	public ModelAndView test(ModelAndView model) {

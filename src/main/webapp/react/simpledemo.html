@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <title>Add React in One Minute</title>
+<meta charset="UTF-8" />
+<title>Add React in One Minute</title>
+<!-- Load React. -->
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="/lib/js/react.development.js"></script>
+<script src="/lib/js/react-dom.development.js"></script>
 </head>
 <body>
   <h2>Add React in One Minute</h2>
@@ -11,11 +15,6 @@
 
   <!-- We will put our React component inside this div. -->
   <div id="like_button_container"></div>
-
-  <!-- Load React. -->
-  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-  <script src="/lib/js/react.development.js" crossorigin></script>
-  <script src="/lib/js/react-dom.development.js" crossorigin></script>
 
   <!-- Load our React component. -->
   <script src="/js/react/simple-demo/like-button.js"></script>
